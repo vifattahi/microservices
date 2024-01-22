@@ -1,0 +1,1 @@
+This folder contains contract information for integration between the core application and third parties. This can be a contract about accessing core application features or about specifying available features for a database system, if one is used for the persistence layer.

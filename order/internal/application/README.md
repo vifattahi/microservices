@@ -1,0 +1,1 @@
+This folder contains microservice business logic, which is a combination of the domain model that refers to a business entity and an API that exposes core functionalities to other modules.
