@@ -3,7 +3,7 @@ package db
 import (
 	"fmt"
 
-	"GitHub.com/vifattahi/microservices/order/internal/application/core/domain"
+	"github.com/vifattahi/microservices/order/internal/application/core/domain"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

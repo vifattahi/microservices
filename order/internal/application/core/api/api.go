@@ -1,8 +1,8 @@
 package api
 
 import (
-	"GitHub.com/vifattahi/microservices/order/internal/application/core/domain"
-	"GitHub.com/vifattahi/microservices/order/internal/ports"
+	"github.com/vifattahi/microservices/order/internal/application/core/domain"
+	"github.com/vifattahi/microservices/order/internal/ports"
 )
 
 type Application struct {
