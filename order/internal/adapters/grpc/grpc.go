@@ -10,7 +10,7 @@ import (
 func (a Adapter) Create(ctx context.Context, request *order.CreateOrderRequest) (*order.CreateOrderResponse, error) {
 	var orderItems []domain.OrderItem
 	for _, orderItem := range request.Orderitems {
-		orderItems = append(orderItems, domain.OrderItem{
+		orderItems = append(orderItems, domain.OrderItems{
 			ProductCode: orderItem.ProductCode,
 			UnitPrice:   orderItem.UnitPrice,
 			Quantity:    orderItem.Quantity,
